@@ -33,7 +33,7 @@ The voice agent connects to the MCP server via SSE at `http://127.0.0.1:8000/sse
 ## Project structure
 
 ```
-friday-tony-stark-demo/
+friday-mcp-voice-assistant/
 ├── server.py           # uv run friday  → starts the MCP server (SSE on :8000)
 ├── agent_friday.py     # uv run friday_voice → starts the LiveKit voice agent
 ├── pyproject.toml
